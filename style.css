@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .navbar{
+    background-color: #2874f0;
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+.navbar span {
+    display: flex;
+    margin-left: 10px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.navbar h5{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+.inp{
+    width: 430px;
+    background-color: white;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+.inp input{
+    margin: 10px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.inp i{
+    margin: 10px;
+    font-size: 20px;
+}
+.navbar i{
+    color: white;
+}
+
+.logo img{ width: 80px;
+    /* margin-top: 20px; */
+    /* height: 20px; */
+}
+.navbar ul{
+    display: flex;
+    /* background-color: aqua; */
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 40px;
+}
+ .navbar a{
+
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    /* margin: 10px; */
+}
+.ntn button{
+    width: 140px;
+    height: 30px;
+    border: none;
+    margin-left: 30px;
+}
+
+/* -------\\\\\/////-------navbar close? */
+.topdeals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 5px 20px;
+    /* height: 50px; */
+    border-bottom: 1px solid rgb(160, 157, 157);
+}
+.topoffer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+    
+    
+}
+.topoffer img{
+    width: 60px;
+    /* margin: 10px; */
+}
+.topoffer h2{
+    font-size: 16px;
+    font-weight: 300;
+    font-weight: 500;
+}
+.bgimg{
+    background-image: url(/img/bg-img-1.webp);
+     /* width: 600px; */
+     height: 307px;
+     background-size: cover;
+     background-position: center;
+}
+.banksection{
+display: flex;
+justify-content: center;
+align-items: center;
+    height: 100px;
+    width: 1350px;
+    /* background-color: aqua; */
+}
+ .banksection img{
+    width: 700px;
+    height: 90px;
+ }
+ .main-box{
+    box-shadow: 0px 0px 0px 5px rgba(104, 100, 100, 0.35);
+
+ }
+ .product1 span{
+    
+    margin-top: 40px;
+ }
+ .name{
+    font-size: 18px;
+
+ }
+ .shop{ 
+    font-size: 18px;
+    margin-top: 8px;
+     color: green;}
+ .discripation{
+    font-size: 14px;
+    color: rgb(82, 80, 78);
+    margin-top: 8px;
+ }
+
+ .product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+justify-content: space-between;
+/* margin-left: 40px; */
+ }
+ .product h4{
+    color: green;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px;
+ }
+ .product p{
+    color: rgb(99, 97, 94);
+margin: 10px;
+    
+ }
+ .product h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+    margin-top: 20px;
+ }
+    
+
+ 
+ .bofelectronic{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    /* border: 1px black solid; */
+    height: 350px;
+    margin-left: 10px;
+    text-align: center;
+    
+ }
+ .bofelectronic button{
+    height: 40px;
+    width: 100px;
+    background-color: #2874f0;
+    /* margin-left: 50px; */
+    border: none;
+    border-radius: 1px;
+    color: white;
+    margin-bottom: 5px;
+
+ }
+    .bofelectronic h1{
+        /* background-color: #2874f0; */
+        /* height: 150px; */
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+.product1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* position: relative; */
+    /* left: 40px; */
+    /* margin-left: 40px; */
+    box-shadow: 1px 1px 1px 1px rgba(117, 114, 114, 0.0);
+
+}
+
+
+.product1 h3{
+
+font-size: 18px;
+font-weight: 700;
+
+}
+.product1 span{
+    /* height: 150px; */
+    /* background-color: aqua; */
+    text-align: center;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.product1 h4{
+    font-size: 16px;
+    font-weight: 300;
+}
+.product1 p{
+    font-size: 14px;
+    font-weight: 100;
+}
+.bofelectronic h2{
+    /* background-color: rgb(30, 53, 53); */
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 210px;
+    background-image: url(/img/teddy);
+    border-top: rgb(141, 138, 138) solid 1px;
+    position: relative;
+    top: 30px;
+}
+.text{
+    margin: 20px;
+}
+.text h2{
+    font-size: 16px;
+    color: rgb(47, 48, 49);
+    margin-top: 20px;
+}
+.text p{
+    font-size: 14px;
+    color: rgb(95, 96, 97);
+    margin-top: 10px;
+}
+ footer{
+    background-color:rgb(18, 18, 24);
+}
+.ending{
+    border-bottom:1px solid white ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    top: 50px;
+}
+.ending p{ color: white;}
+.ending ul{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 20px;
+    /* text-align: center; */
+    /* margin: 10px; */
+}
+.ending li{
+    margin: 8px;
+    color: white;
+}
+.ending a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+.ending h2{
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(110, 107, 107);
+}
+.the-end{
+    /* background-color: antiquewhite; */
+}
+.help{
+    /* background-color: antiquewhite; */
+    position: relative;
+    bottom: 38px;
+    margin: 10px;
+}
+
+    
+.policy{
+    /* background-color:wheat ; */
+    position: relative;
+    /* bottom: 30px; */
+    margin: 10px;
+}
+.social{
+    /* background-color: wheat; */
+    position: relative;
+    bottom: 52px;
+    margin: 10px;
+}
+.mail{
+    /* background-color: aqua; */
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+}
+.office{
+    /* background-color: antiquewhite; */
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+.onemore ul{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color:rgb(39, 39, 54); */
+    background-color:rgb(18, 18, 24);
+
+
+}
+.onemore li{
+    /* margin: 10px; */
+text-align: center;
+list-style: none;
+color: white;
+}
+.onemore img{
+    margin: 10px;
+}
+.onemore h4{
+    margin: 10px;
+    color: white;
+}
+
+@media screen and (max-witdh:700px){
+    .product{
+        display: grid;
+    }
+    .product1 img{
+        width: 100px;
+    }
+}
